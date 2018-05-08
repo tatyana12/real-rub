@@ -16,6 +16,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+gem 'pwb', git: 'https://github.com/etewiah/property_web_builder', branch: 'master'
+gem 'globalize', git: 'https://github.com/globalize/globalize'
+gem 'paloma', github: 'fredngo/paloma'
+
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -50,10 +55,12 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'pwb', git: 'https://github.com/etewiah/property_web_builder'
+#gem  git: 'https://github.com/etewiah/property_web_builder'
 # , branch: 'link-model-support'
 # gem 'globalize', git: 'https://github.com/globalize/globalize'
-gem 'paloma', git: 'https://github.com/fredngo/paloma'
+#gem 'paloma', git: 'https://github.com/fredngo/paloma'
 # fog-core 1.44.0 requires xmlrpc which is not available in ruby < 2.3...
 gem 'fog-core', '1.43.0'
 gem 'property_web_scraper', git: 'https://github.com/RealEstateWebTools/property_web_scraper'
+
+
